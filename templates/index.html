@@ -1,0 +1,54 @@
+$var title: Niyi's Memes
+          <div class ="header" id = ><br> </br> <br> </br> Niyi Kelani Present's: Memetastic! <br> </br> <br> </br> </div>
+        <br> </br> <a href="secondpage"> About This Website </a>
+      </body> <br> </br>
+
+        <h2>Memes:</h2>
+
+            <head></head>
+
+            <img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="static/that_feel.png" width="42" height="42">
+            <script>
+function bigImg(x) {
+    x.style.height = "168px";
+    x.style.width = "168px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
+</script>
+          <canvas id="canvas" width="400" height="400"
+<style="background-color:#333">
+</canvas>
+
+
+<img id="myImage" onclick="changeImage()" src="static/69dea1cc526aeeb6f6c5c14d1437e2e8.jpg" width="550" height="400">
+<p> <b> <i> Click on the memes to change them! Or hover over the wierd looking guy above to expand him! </i> </b> </p>
+
+<script>
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("12.13.52")) {
+        image.src = "static/69dea1cc526aeeb6f6c5c14d1437e2e8.jpg";
+    } else {
+        image.src = "static/Screen Shot 2015-09-20 at 12.13.52 PM.png";
+    }
+}
+</script>
+
+<br> </br>
+
+<p> For a chance to win a free membership on Memtastic!© for life, please fill out the question below!</p>
+<form action="raffle.asp" onsubmit="myFunction()">
+  Here at Memtastic!©, we like to make sure our users are 100% satisfied, 100% of the time. Please take a moment to tell us how were doing, give us a rating (1-5), and leave a suggestion on how to make our favorite website, a better website! Thank you. : <input type="text" name="fname">
+  <input type="submit" value="Submit Your Rating and Advice">
+</form>
+
+<script>
+function myFunction() {
+    alert("Thank you for your response, and your assistance in making Memtastic!© a better website! By the way, if you gave us a 1 rating, we will find you.");
+}
+</script>
+          <br> </br>  <div class ="write" id ="write-body"> <p> <i> <b> Memtastic!© was Created by Niyi Kelani in September, 2015. All rights reserved. Memtastic!© is not responsible from death that may occur from laughing too hard. You have been warned! </p> </br> </i> </b> </div>
