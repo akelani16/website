@@ -1,0 +1,92 @@
+body {
+  background-color:#98FB98;
+  font-size:18;
+  position: relative;
+  top: 30px;
+  font-family:helvetica;
+}
+
+.header {
+  background-color:#98FB98;
+  color:#228B22;
+  text-align:center;
+  font-size:27;
+  font-family:helvetica;
+  background-image: url("Homepage Banner MDYW_EntBanner_240x200_Cool 2  Left 480x126.png");
+  margin-right: 70;
+  margin-left: 70;
+  position: relative;
+}
+
+.redtext {
+  color:#FF0000;
+}
+#text-body {
+background-color:#C2FFFF;
+font-family: "Comic Sans MS", cursive, sans-serif;
+color:#0000E6;
+position: relative;
+font-size: 18;
+border-top-style: dotted;
+border-right-style: solid;
+border-bottom-style: dotted;
+border-left-style: solid;
+}
+#more-text {
+  color:#0000E6
+;
+  background-color:#0000E6;
+  position: relative;
+}
+.text{
+  font-size:15;
+  position: relative;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #0066FF;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF66FF;
+
+}
+
+a:active {
+    text-decoration: underline;
+    color: #0000FF;
+
+}
+
+#writing-body {
+  background-color:#C2FFFF;
+  color:#0000E6;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  position: relative;
+  font-size: 18;
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+#write-body {
+  background-color:#C2FFFF;
+  color:#0000E6;
+  position: relative;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  font-size: 18;
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
